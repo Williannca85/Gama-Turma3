@@ -35,5 +35,8 @@ public class Exercicio04 {
 			
 			contador++;      
      }      
+
+          teclado.close();
    }
+
 }
