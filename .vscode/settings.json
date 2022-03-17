@@ -25,5 +25,10 @@
           "titleBar.inactiveBackground": "#be000099",
           "titleBar.inactiveForeground": "#e7e7e799"
      },
-     "peacock.color": "#8B0000"
+     "peacock.color": "#8B0000",
+     "java.project.sourcePaths": [
+          "aula02/exercicio",
+          "aula01",
+          "aula02/exercicio02"
+     ]
 }
