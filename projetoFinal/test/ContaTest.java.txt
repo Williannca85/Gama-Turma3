@@ -1,0 +1,39 @@
+package test;
+
+import projetoFinal.ContaCorrente;
+import projetoFinal.ContaEspecial;
+
+public class ContaTest {
+	
+	
+  
+	@Test
+	public void deveRetornarNumeroContaEspecial() {
+		
+		ContaEspecial c = new ContaEspecial(1111);
+
+		int numero = c.getNumeroConta();
+		assertEquals(1111, numero);
+
+	}
+	
+	@Test
+   public void deveRetornarNumeroContaCorrente() {
+		
+		ContaCorrente c1 = new ContaCorrente(1238, 12.897);
+
+		int numero = c1.getNumeroConta();
+		assertEquals(1238, numero);	
+	
+}
+	@Test
+  public void deveRetornarNumeroContaContaEspecial() {
+		
+		ContaEspecial c3 = new ContaEspecial(1237);
+
+		int numero = c3.getNumeroConta();
+		assertEquals(1237, numero);
+	
+}	
+   
+}
